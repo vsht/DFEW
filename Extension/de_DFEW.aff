@@ -1,0 +1,449 @@
+# de_DFEW.aff - DFEW affix file for use in hunspell
+#
+# DFEW is an abbreviation of Deutsches Fachspezifisches Ergänzungswörterbuch, 
+# a German supplementary dictionary containing mostly scientific/technical terms 
+# that are not present in Franz Michael Baumann's de-DE-frami dictionary.
+#
+# Copyright (C) 2009-2022 Vladyslav Shtabovenko
+#
+# This program is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+#
+# You should have received a copy of the GNU Lesser General Public License
+# along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+SET UTF-8
+TRY esianrtolcdugmphbyfvkwäüößESIANRTOLCDUGMPHBYFVKWÄÜÖ
+LANG de_DE
+NOSUGGEST O
+CIRCUMFIX X
+
+SFX F Y 2
+SFX F 0 n e
+SFX F 0 en [^e]
+
+SFX n Y 1
+SFX n 0 ns .
+
+SFX Y Y 42
+SFX Y 0 meter .
+SFX Y 0 meters .
+SFX Y 0 gramm .
+SFX Y 0 sekunde .
+SFX Y 0 sekunden .
+SFX Y 0 ampere .
+SFX Y 0 kelvin .
+SFX Y 0 mol .
+SFX Y 0 candela .
+SFX Y 0 hertz .
+SFX Y 0 newton .
+SFX Y 0 pascal .
+SFX Y 0 joule .
+SFX Y 0 watt .
+SFX Y 0 coulomb .
+SFX Y 0 volt .
+SFX Y 0 farad .
+SFX Y 0 ohm .
+SFX Y 0 siemens .
+SFX Y 0 weber .
+SFX Y 0 tesla .
+SFX Y 0 henry .
+SFX Y 0 lumen .
+SFX Y 0 lux .
+SFX Y 0 becquerel .
+SFX Y 0 gray .
+SFX Y 0 sievert .
+SFX Y 0 katal .
+SFX Y 0 elektronenvolt .
+SFX Y 0 elektronvolt .
+SFX Y 0 newtonmeter .
+SFX Y 0 ampersekunde .
+SFX Y 0 voltsekunde .
+SFX Y 0 amperestunde .
+SFX Y 0 voltampere .
+SFX Y 0 newtonsekunde .
+SFX Y 0 wattsekunde .
+SFX Y 0 wattstunde .
+SFX Y 0 pond .
+SFX Y 0 parsec .
+SFX Y 0 bar .
+SFX Y 0 curie .
+
+SFX V Y 16
+SFX V en e en
+SFX V en st [^ntßsxz]en
+SFX V en t [^ntßsxz]en
+SFX V en t [ßsxz]en
+SFX V en est [t]en
+SFX V en et [t]en
+SFX V en st [^h]nen
+SFX V en t [^h]nen
+SFX V en est hnen
+SFX V en et  hnen
+SFX V eln ele eln
+SFX V eln elt eln
+SFX V eln elst eln
+SFX V ern ere ern
+SFX V ern ert ern
+SFX V ern erst ern
+
+
+SFX y Y 29
+SFX y 0 m .
+SFX y 0 g .
+SFX y 0 s .
+SFX y 0 A .
+SFX y 0 K .
+SFX y 0 mol .
+SFX y 0 cd .
+SFX y 0 Hz .
+SFX y 0 N .
+SFX y 0 Pa .
+SFX y 0 J .
+SFX y 0 W .
+SFX y 0 C .
+SFX y 0 V .
+SFX y 0 F .
+SFX y 0 S .
+SFX y 0 Wb .
+SFX y 0 T .
+SFX y 0 H .
+SFX y 0 Lm .
+SFX y 0 Lx .
+SFX y 0 Bq .
+SFX y 0 Gy .
+SFX y 0 Sv .
+SFX y 0 kat .
+SFX y 0 eV .
+SFX y 0 p .
+SFX y 0 rad .
+SFX y 0 rem .
+
+
+SFX A Y 9
+SFX A 0 es [^e]
+SFX A 0 er [^e]
+SFX A 0 e [^e]
+SFX A 0 en [^e]
+SFX A 0 em [^e]
+SFX A 0 r e
+SFX A 0 s e
+SFX A 0 n e
+SFX A 0 m e
+
+SFX a Y 5
+SFX a el le el
+SFX a el ler el
+SFX a el les el
+SFX a el lem el
+SFX a el len el
+
+SFX G Y 1
+SFX G 0 s [^ßsxz]
+
+SFX g Y 1
+SFX g 0 es .
+
+SFX m Y 1
+SFX m 0 ses nis
+
+SFX N Y 1
+SFX N 0 n .
+
+SFX S Y 2
+SFX S 0 e .
+SFX S 0 en .
+
+SFX C Y 34
+SFX C 0 ion .
+SFX C 0 ione .
+SFX C 0 ions .
+SFX C 0 ionen .
+SFX C 0 atom .
+SFX C 0 atoms .
+SFX C 0 atome .
+SFX C 0 atomen .
+SFX C 0 kern .
+SFX C 0 kerns .
+SFX C 0 kerne .
+SFX C 0 kernen .
+SFX C 0 isotop .
+SFX C 0 isotops .
+SFX C 0 isotope .
+SFX C 0 isotopen .
+SFX C 0 verbindung .
+SFX C 0 verbindungen .
+SFX C 0 legierung .
+SFX C 0 legierungen .
+SFX C 0 spektrum .
+SFX C 0 spektrums .
+SFX C 0 spektren .
+SFX C 0 linie .
+SFX C 0 linien .
+SFX C 0 zerfall .
+SFX C 0 zerfälle 
+SFX C 0 zerfällen 
+SFX C 0 zerfalls .
+SFX C 0 zerfalles .
+SFX C 0 gehalts .
+SFX C 0 gehalt .
+SFX C 0 konzentration .
+SFX C 0 konzentrationen .
+
+
+SFX H Y 165
+SFX H 0 ien [^n]al
+SFX H 0 ien zip
+SFX H 0 se nis
+SFX H 0 sen nis
+SFX H a ata a
+SFX H ab äbe ab
+SFX H ab äben ab
+SFX H aben äben aben
+SFX H ach ächer ach
+SFX H ach ächern ach
+SFX H achs ächse achs 
+SFX H achs ächse achs 
+SFX H acht ächte acht
+SFX H acht ächten acht
+SFX H ad äder ad
+SFX H ad ädern ad
+SFX H aden äden aden
+SFX H afen äfen afen
+SFX H aft äfte aft
+SFX H aft äften aft
+SFX H ag äge ag
+SFX H ag ägen ag
+SFX H ahl ähle ahl
+SFX H ahl ählen ahl
+SFX H ahn ähne ahn
+SFX H ahn ähnen ahn
+SFX H aht ähte aht
+SFX H aht ähten aht
+SFX H ald älder ald
+SFX H ald äldern ald
+SFX H all älle fall
+SFX H all ällen fall
+SFX H als älse als
+SFX H als älsen als
+SFX H amm ämme amm
+SFX H amm ämmen amm
+SFX H ammer ämmer ammer
+SFX H ammer ämmern ammer
+SFX H ampf ämpfe ampf
+SFX H ampf ämpfen ampf
+SFX H an äne an
+SFX H an änen an
+SFX H anal anäle anal
+SFX H anal anälen anal
+SFX H and ände [^rb]and
+SFX H and änden [^rb]and
+SFX H and änder [rb]and
+SFX H ang änge ang
+SFX H ang ängen ang
+SFX H ank änke ank
+SFX H ank änken ank
+SFX H antel äntel antel
+SFX H antel änteln antel
+SFX H apf äpfe apf
+SFX H apf äpfen apf
+SFX H arm ärme arm
+SFX H arm ärmen arm
+SFX H as äser as
+SFX H as äsern as
+SFX H ass ässer ass
+SFX H ass ässern ass
+SFX H ast äste ast
+SFX H ast ästen ast
+SFX H asten ästen asten
+SFX H att ätter [^t]att
+SFX H att ättern [^t]att
+SFX H att ätten tatt
+SFX H atz ätze atz
+SFX H atz ätze atz
+SFX H atz ätzen atz
+SFX H atz ätzen atz
+SFX H auch äuche auch
+SFX H auch äuche auch
+SFX H auf äufe auf
+SFX H auf äufen auf
+SFX H auf aufs auf
+SFX H aul äule aul
+SFX H aul äulen aul
+SFX H aum äume aum
+SFX H aum äumen aum
+SFX H aut äute aut
+SFX H aut äuten aut
+SFX H buch bücher buch
+SFX H buch büchern buch
+SFX H en ina umen
+SFX H ex ices ex
+SFX H ex izes ex
+SFX H haus häuser haus
+SFX H haus häusern haus
+SFX H is en is
+SFX H is en sis
+SFX H modus modi modus
+SFX H och öcher och
+SFX H och öchern och
+SFX H ock öcke ock
+SFX H ock öcken ock
+SFX H oden öden oden
+SFX H of öfe of
+SFX H of öfen of
+SFX H ofen öfen ofen
+SFX H og öge og
+SFX H og ögen og
+SFX H ogen ögen ogen
+SFX H olf ölfe olf
+SFX H olf ölfen olf
+SFX H olz ölzer olz
+SFX H olz ölzern olz
+SFX H om öme om
+SFX H om ömen om
+SFX H on öne on
+SFX H on önen on
+SFX H opf öpfe opf
+SFX H opf öpfen opf
+SFX H orb örbe orb
+SFX H orb örben orb
+SFX H orn örner orn
+SFX H orn örnern orn
+SFX H oß öße öß
+SFX H oß öße stoß
+SFX H oß ößen öß
+SFX H oß ößen stoß
+SFX H oss össer oss
+SFX H oss össern oss
+SFX H otz ötze otz
+SFX H otz ötzen otz
+SFX H ruch rüche ruch
+SFX H ruch rüchen ruch
+SFX H statt stätten statt
+SFX H ub übe ub
+SFX H ub üben ub
+SFX H uchs üchsen uchs
+SFX H uchs üchsen uchs
+SFX H uck ücke uck
+SFX H uck ücken uck
+SFX H ug üge ug
+SFX H ug ügen ug
+SFX H uhl ühle uhl
+SFX H uhl ühlen uhl
+SFX H um en [^a]um
+SFX H umpf ümpfe umpf
+SFX H umpf ümpfen umpf
+SFX H und ünde und
+SFX H und ünden und
+SFX H ung ünge ung
+SFX H ung üngen ung
+SFX H unst ünste unst
+SFX H unst ünsten unst
+SFX H ur üre ur
+SFX H ur üren ur
+SFX H urf ürfe urf
+SFX H urf ürfen urf
+SFX H urm ürme urm
+SFX H urm ürmen urm
+SFX H us en [^h]us
+SFX H uss üsse uss
+SFX H uß üße uß
+SFX H uss üssen uss
+SFX H uß üßen uß
+SFX H ut üter [^a]ut
+SFX H ut ütern [^a]ut
+SFX H wort wörter wort
+SFX H wort wörtern wort
+SFX H x zen trix
+SFX H zaun zäune zaun
+SFX H zaun zäunen zaun
+
+
+SFX M Y 4
+SFX M um a um
+SFX M en a en
+SFX M a en a
+SFX M o en o
+
+SFX R Y 3
+SFX R 0 er [^e]
+SFX R 0 r e
+SFX R 0 ern .
+
+SFX P Y 11
+SFX P 0 sch/KX .
+SFX P 0 sches/KX .
+SFX P 0 scher/KX .
+SFX P 0 sche/KX .
+SFX P 0 schen/KX .
+SFX P 0 schem/KX .
+SFX P 0 'sches/KX .
+SFX P 0 'scher/KX .
+SFX P 0 'sche/KX .
+SFX P 0 'schen/KX .
+SFX P 0 'schem/KX .
+
+PFX K Y 29
+PFX K A a/X A
+PFX K Ä ä/X Ä
+PFX K B b/X B
+PFX K C c/X C
+PFX K D d/X D
+PFX K E e/X E
+PFX K F f/X F
+PFX K G g/X G
+PFX K H h/X H
+PFX K I i/X I
+PFX K J j/X J
+PFX K K k/X K
+PFX K L l/X L
+PFX K M m/X M
+PFX K N n/X N
+PFX K O o/X O
+PFX K Ö ö/X Ö
+PFX K P p/X P
+PFX K Q q/X Q
+PFX K R r/X R
+PFX K S s/X S
+PFX K T t/X T
+PFX K U u/X U
+PFX K Ü ü/X Ü
+PFX K V v/X V
+PFX K W w/X W
+PFX K X x/X X
+PFX K Y y/X Y
+PFX K Z z/X Z
+
+KEY qwertzuiopü|asdfghjklöä|yxcvbnm|qaw|say|wse|dsx|sy|edr|fdc|dx|rft|gfv|fc|tgz|hgb|gv|zhu|jhn|hb|ujmi|kjm|jn|iko|lkm|olp|pöü|äö
+
+REP 23
+REP ä a
+REP a ä
+REP o ö
+REP ö o
+REP u ü
+REP ü u
+REP f ph
+REP ph f
+REP s '
+REP ' s
+REP ss ß
+REP ß ss
+REP kt x
+REP x kt
+REP x chs
+REP chs x
+REP ff fff
+REP i ie
+REP ie i
+REP d t
+REP t d
+REP th t
+REP t th

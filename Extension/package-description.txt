@@ -1,0 +1,2 @@
+German supplementary dictionary mainly focused on scientific and technical terms
+that are not contained in Franz Michael Baumann's de-DE-frami dictionary.
